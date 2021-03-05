@@ -40,8 +40,8 @@ public class Add_Member
 		driver= new ChromeDriver();	
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("https://skoolgo.pixelmindit.com:5000/#/");
-		driver.findElement(By.id("userName")).sendKeys("admin@pixel.com");
-		driver.findElement(By.id("password")).sendKeys("sk12345");
+		driver.findElement(By.id("userName")).sendKeys("XX");
+		driver.findElement(By.id("password")).sendKeys("XX");
 		driver.findElement(By.xpath("//button[text()='LOGIN']")).click();
 		Thread.sleep(8000);
 		 driver.manage().window().maximize();
